@@ -1,0 +1,499 @@
+.html {
+  font-family: "Inter", sans-serif;
+  color: white;
+  margin: 0px;
+  height: 4500px;
+  overflow: hidden;
+  width: 100vw;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.content{
+  height: 1000px;
+  width: 1230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 100vw;
+  height: 5500px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.backimg,
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #1BF2D8; 
+  font-size: 32px;
+  z-index: -1;
+}
+.backimg {
+  background-image: url(../public/Imagem\ do\ WhatsApp\ de\ 2024-05-25\ à\(s\)\ 10.18.23_6e63c018.jpg);
+}
+.lines {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-self: center;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+nav > * {
+  padding-right: 10px;
+}
+.searchbar{
+  background-color: #1b1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: 3px;
+  border-radius: 4px;
+  cursor: text;
+}
+.searchbar:hover>#searchtxt{
+  margin-right: 20px;
+}
+#searchic{
+  background-image: url(../public/svgviewer-png-output.png);
+  width: 24px;
+  position: relative;
+  right: 3px;
+  bottom: 3px;
+  height: 24px;
+}
+#searchtxt {
+  padding-right: 25px;
+  padding-left: 5px;
+}
+.searchbar > * {
+  padding: 0px;
+  margin: 0px;
+}
+#txtlink,#searchtxt{
+  text-decoration: none;
+  color: white;
+  transition: 0.1s ease;
+}
+#txtlink:hover{
+  transform: scale(1.15);
+}
+#svglogo{
+  width: 1240px;
+  position: relative;
+  left: 5px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 120px;
+}
+#criarbtn {
+  background-color: #329F85;
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 20px 10px;
+  margin-right: 10px;
+  box-shadow:
+      0 0 5px rgba(255, 255, 255, 0.1), 
+      0 0 10px rgba(27, 242, 216, 0.1), 
+      0 0 15px rgba(27, 242, 216, 0.1), 
+      0 0 20px rgba(27, 242, 216, 0.1),
+      2px 2px 2px rgba(0, 0, 0, 0.1);
+      transition: 0.2s ease;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#entre{
+  margin: 0px 10px;
+  font-weight: 900;
+  font-size: x-large;
+  transition: 0.2s ease;
+}
+#entre:hover{
+  font-size: 28px;
+}
+.em_alta{
+  width: 100%;
+  margin-bottom: 80px;
+  height: 300px;
+}
+.games{
+  display: flex;
+  justify-content: space-between;
+}
+.games>* {
+  background-size: cover;
+  border: 1px solid #1BF2D8;
+  width: 220px;
+  height: 300px;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+.games>*:hover{
+  padding: 10px;
+}
+#criarbtn:hover{
+  padding: 25px 15px;
+}
+.expli{
+  display: flex;
+  flex-direction: column;
+  width: 1230px;
+  font-size: 20px;
+}
+.img1,.img2{
+  width: 560px;
+  height: 450px;
+  border: #1BF2D8 1px solid;
+  border-radius: 3px;
+  transition: 0.2s ease;
+}
+.img1{
+  background-image: url(../public/1.jpg);
+  background-size: cover;
+}
+.img2{
+  background-image: url(../public/2.jpg);
+  background-size: cover;
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+.img1:hover,.img2:hover{
+  transform: scale(1.02);
+}
+.layout1,.layout2{
+  display: flex;
+  margin-top: 20px;
+}
+.text1{
+  display: flex;
+  font-size: 23px;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  width: 635px;
+  left: 30px;
+}
+hr{
+  width: 100%;
+  border: 1px dashed #1BF2D8;
+  position: relative;
+  margin: 40px 0px;
+}
+.text2{
+  display: flex;
+  flex-direction: column;
+  font-size: 23px;
+  justify-content: center;
+  width: 635px;
+  height: 450px;
+}
+.rimg1,.rimg2,.rimg3,.rimg4{
+  background-size: cover;
+  border: #1BF2D8 1px solid;
+  width: 80px;
+  height: 100px;
+  margin-right: 15px;
+  transition: 0.2s ease;
+  margin-bottom: 10px;
+}
+.stars > *{
+  background-size: cover;
+  width: 30px;
+  transition: 0.2s ease;
+}
+.stars > *:hover{
+  transform: scale(1.15);
+  fill: #1BF2D8;
+}
+#heart{
+  background-size: cover;
+  background-image: url(../public/svgviewer-png-output\ \(2\).png);
+  width: 30px;
+  transition: 0.2s ease;
+}
+#heart:hover{
+  fill: #ff0080;
+}
+.curtidas{
+  display: flex;
+  align-items: center;
+}
+.rinfo1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 400px;
+  position: relative;
+  bottom: 18px;
+}
+.rimg1:hover,.rimg2:hover,.rimg3:hover,.rimg4:hover,#heart:hover{
+  transform: scale(1.10);
+}
+.reviews{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.review1,.review3{
+  margin-right: 400px;
+}
+.rtop,.rbottom{
+  display: flex;
+}
+.listas{
+  display:flex;
+  width: 1230px;
+}
+.lista{
+  display: flex;
+  flex-direction: column;
+  width: 1230px;
+  justify-content: space-between;
+}
+.lista>*{
+  margin: 0px;
+  padding: 0px;
+  padding-right: 11px;
+}
+.limg{
+  border: #1BF2D8 solid 1px;
+  border-radius: 3px;
+  width: 400px;
+  height: 150px;
+  transition: 0.2s ease;
+}
+.lista>p>a,.lista>a{
+  color: white;
+  text-decoration: none;
+}
+.limg:hover{
+  transform: scale(1.05)
+}
+.news{
+  display: flex;
+  width: 1230px;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec1,.sec2,.sec3{
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+}
+.ninfo{
+  display: flex;
+  flex-direction: column;
+}
+.nimg{
+  border: #1BF2D8 solid 1px;
+  width: 50px;
+  height: 70px;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
+.nimg:hover{
+  padding: 5px;
+}
+.new{
+  display: flex;
+  align-self: flex-start;
+}
+.ninfo > *{
+  margin: 0px;
+  margin-left: 5px;
+}
+#str{
+  width: 30px;
+  transition: 0.2s ease;
+}
+.starsr{
+  display: flex;
+  align-items: center;
+}
+#str:hover{
+  transform: scale(1.15);
+  fill: #1BF2D8;
+}
+.footer{
+  background-color: #181818;
+  position: relative;
+  bottom: 1300px;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fcont{
+  display: flex;
+  flex-direction: column;
+}
+.ftext{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ftext >*{
+  transition: 0.2s ease;
+  margin-right: 10px;
+}
+.ftext>h2:hover{
+  transform: scale(1.05)
+}
+.game1{
+  background-image: url(../public/3.jpg);
+}
+.game2{
+  background-image: url(../public/4.jpg);
+}
+.game3{
+  background-image: url(../public/5.jpg);
+}
+.game4{
+  background-image: url(../public/6.jpg);
+}
+.game5{
+  background-image: url(../public/7.jpg);
+}
+.rimg1{
+  background-image: url(../public/8.jpg);
+  background-size: cover;
+}
+.rimg2{
+  background-image: url(../public/9.jpg);
+  background-size: cover;
+}
+.rimg3{
+  background-image: url(../public/10.jpg);
+  background-size: cover;
+}
+.rimg4{
+  background-image: url(../public/11.jpg);
+  background-size: cover;
+}
+#limg1{
+  background-size: cover;
+  background-image: url(../public/13.jpg);
+}
+#limg2{
+  background-size: cover;
+  background-image: url(../public/12.jpg);
+}
+#limg3{
+  background-size: cover;
+  background-image: url(../public/14.jpg);
+}
+#nimg1{
+  background-size: cover;
+  background-image: url(../public/critter-crops-cover.webp);
+}
+#nimg2{
+  background-size: cover;
+  background-image: url(../public/dreamtactics-steam.jpg);
+}
+#nimg3{
+  background-size: cover;
+  background-image: url(../public/harold-halibut-cover-download.webp);
+}
+#nimg4{
+  background-size: cover;
+  background-image: url(../public/MV5BOTBjNDUyYmYtMTA4Yi00Mjg5LTlhNmMtZGFmNzUzZDMzZWQyXkEyXkFqcGdeQXVyMTgwNDM0Nzc0._V1_FMjpg_UX1000_.jpg);
+}
+#nimg5{
+  background-size: cover;
+  background-image: url(../public/Game-Page-Box-Art_BioGun-320x480.jpg);
+}
+#nimg6{
+  background-size: cover;
+  background-image: url(../public/kg-1.webp);
+}
+#nimg21{
+  background-size: cover;
+  background-image: url(../public/81Ie60x3vpL._AC_UF1000\,1000_QL80_.jpg);
+}
+#nimg22{
+  background-size: cover;
+  background-image: url(../public/images.jpeg);
+}
+#nimg23{
+  background-size: cover;
+  background-image: url(../public/Hades-2-ea.webp);
+}
+#nimg24{
+  background-size: cover;
+  background-image: url(../public/Elden\ Ring.jpg);
+}
+#nimg25{
+  background-size: cover;
+  background-image: url(../public/Stellar_Blade_Cover.webp);
+}
+#nimg26{
+  background-size: cover;
+  background-image: url(../public/GTA\ VI.jpg);
+}
+#nimg31{
+  background-size: cover;
+  background-image: url(../public/images\ \(1\).jpeg);
+}
+#nimg32{
+  background-size: cover;
+  background-image: url(../public/kv.f015d749.jpg);
+}
+#nimg33{
+  background-size: cover;
+  background-image: url(../public/4j7jlzmddow61.webp);
+}
+#nimg34{
+  background-size: cover;
+  background-image: url(../public/images\ \(2\).jpeg);
+}
+#nimg35{
+  background-size: cover;
+  background-image: url(../public/images\ \(3\).jpeg);
+}
+#nimg36{
+  background-size: cover;
+  background-image: url(../public/images\ \(4\).jpeg);
+}
